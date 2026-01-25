@@ -1,0 +1,51 @@
+{
+  "name": "igitimer",
+  "author": "iginoc",
+  "version": "1.3.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-fctx": "^1.6.4"
+  },
+  "pebble": {
+    "displayName": "igitimer",
+    "uuid": "e98869a9-255c-434f-816d-4ff2b8b2f84b",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint"
+    ],
+    "watchapp": {
+      "watchface": false,
+      "iconImage": "MENU_ICON"
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "MENU_ICON",
+          "file": "images/igitimer.png",
+          "menuIcon": true
+        },
+        {
+          "type": "raw",
+          "name": "AVENIR_NEXT_REGULAR",
+          "file": "fonts/AvenirNextRegular.ffont"
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "pebble-fctx-compiler": "^1.2.0"
+  }
+}
