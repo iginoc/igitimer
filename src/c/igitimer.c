@@ -212,6 +212,8 @@ void Timer_toggle_pause(void) {
     }
     
     Timer_redraw();
+  } else if (timer_duration_seconds > 0) {
+    Timer_start(timer_duration_seconds);
   }
 }
 
