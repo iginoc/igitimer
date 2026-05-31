@@ -1,3 +1,25 @@
+# Ignore Pebble build artifacts
+build/
+**/build/
+*.pbw
+*.pbpack
+*.resball
+
+# Ignore auto-generated resource ID/source files
+**/*resource_ids.auto.*
+**/*.auto.c
+**/*.auto.h
+
+# Pebble cache directories
+c4che/
+
+# Node modules
+node_modules/
+
+# Editor/OS files
+.vscode/
+.DS_Store
+Thumbs.db
 build/
 node_modules/
 .waf*
